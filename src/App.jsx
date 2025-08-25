@@ -1,0 +1,26 @@
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import CustomerRouters from "./Routers/CustomerRouters";
+function App() {
+  return (
+    <div className="">
+      <Routes>
+        <Route path="/*" element={<CustomerRouters />}></Route>
+      </Routes>
+
+      <div>
+        {/* <HomePage /> */}
+        {/* <Product /> */}
+        {/* <ProductCard /> */}
+        {/* <ProductDetails /> */}
+        {/* <Cart /> */}
+        {/* <CheckOut /> */}
+        {/* <DeliveryAddressForm /> */}
+        {/* <Order/> */}
+        {/* <OrderDetails/> */}
+      </div>
+    </div>
+  );
+}
+
+export default App;
